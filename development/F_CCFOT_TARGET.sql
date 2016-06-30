@@ -1,7 +1,7 @@
 USE [odw_dm]
 GO
 
-/****** Object:  Table [odw_user].[F_CCFOT_TARGET]    Script Date: 2016/6/30 13:26:17 ******/
+/****** Object:  Table [odw_user].[F_CCFOT_TARGET]    Script Date: 2016/6/30 16:12:22 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -15,7 +15,6 @@ CREATE TABLE [odw_user].[F_CCFOT_TARGET](
 	[LEVEL1] [nvarchar](10) NOT NULL,
 	[LEVEL2] [nvarchar](10) NOT NULL,
 	[LEVEL3] [nvarchar](10) NOT NULL,
-	[LEVEL4] [nvarchar](10) NOT NULL,
 	[DR_TARGET] [decimal](15, 3) NULL,
 	[DR_TARGET_AMBITION] [decimal](15, 3) NULL,
 	[SE_TARGET] [decimal](15, 3) NULL,
