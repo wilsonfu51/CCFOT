@@ -11,7 +11,7 @@ GO
 CREATE TABLE [odw_user].[T_CCFOT_TARGET](
 	[FILE_NAME] [nvarchar](100) NULL,
 	[ROW_NUM] [int] NULL,
-	[YEAR] int NOT NULL,
+	[YEAR] [int] NOT NULL,
 	[LEVEL0] [nvarchar](10) NOT NULL,
 	[LEVEL1] [nvarchar](10) NOT NULL,
 	[LEVEL2] [nvarchar](10) NOT NULL,
