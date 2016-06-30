@@ -1,7 +1,7 @@
 USE [odw_staging]
 GO
 
-/****** Object:  Table [odw_user].[T_CCFOT_FAFB]    Script Date: 2016/6/30 11:37:35 ******/
+/****** Object:  Table [odw_user].[T_CCFOT_FAFB]    Script Date: 2016/6/30 17:13:51 ******/
 SET ANSI_NULLS ON
 GO
 
