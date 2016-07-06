@@ -37,7 +37,7 @@ CREATE TABLE [odw_user].[T_CCFOT_TARGET](
 	[WT_TARGET] [decimal](15, 3) NULL,
 	[WT_TARGET_AMBITION] [decimal](15, 3) NULL,
 	[LAST_UPD_DT] [datetime] NULL,
-	[JOB_ID] [nvarchar](10) NULL
+	[JOB_ID] [nvarchar](20) NULL
 ) ON [PRIMARY]
 
 GO
